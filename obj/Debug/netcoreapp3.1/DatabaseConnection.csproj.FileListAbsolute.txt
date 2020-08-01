@@ -1,0 +1,13 @@
+C:\Users\dlm13\source\repos\DatabaseConnection\bin\Debug\netcoreapp3.1\DatabaseConnection.exe
+C:\Users\dlm13\source\repos\DatabaseConnection\bin\Debug\netcoreapp3.1\DatabaseConnection.deps.json
+C:\Users\dlm13\source\repos\DatabaseConnection\bin\Debug\netcoreapp3.1\DatabaseConnection.runtimeconfig.json
+C:\Users\dlm13\source\repos\DatabaseConnection\bin\Debug\netcoreapp3.1\DatabaseConnection.runtimeconfig.dev.json
+C:\Users\dlm13\source\repos\DatabaseConnection\bin\Debug\netcoreapp3.1\DatabaseConnection.dll
+C:\Users\dlm13\source\repos\DatabaseConnection\bin\Debug\netcoreapp3.1\DatabaseConnection.pdb
+C:\Users\dlm13\source\repos\DatabaseConnection\obj\Debug\netcoreapp3.1\DatabaseConnection.csprojAssemblyReference.cache
+C:\Users\dlm13\source\repos\DatabaseConnection\obj\Debug\netcoreapp3.1\DatabaseConnection.AssemblyInfoInputs.cache
+C:\Users\dlm13\source\repos\DatabaseConnection\obj\Debug\netcoreapp3.1\DatabaseConnection.AssemblyInfo.cs
+C:\Users\dlm13\source\repos\DatabaseConnection\obj\Debug\netcoreapp3.1\DatabaseConnection.csproj.CoreCompileInputs.cache
+C:\Users\dlm13\source\repos\DatabaseConnection\obj\Debug\netcoreapp3.1\DatabaseConnection.dll
+C:\Users\dlm13\source\repos\DatabaseConnection\obj\Debug\netcoreapp3.1\DatabaseConnection.pdb
+C:\Users\dlm13\source\repos\DatabaseConnection\obj\Debug\netcoreapp3.1\DatabaseConnection.genruntimeconfig.cache
