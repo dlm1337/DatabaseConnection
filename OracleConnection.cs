@@ -11,7 +11,9 @@ namespace DatabaseConnection
         {
             ConnectionString = connected;
             TimeOut = start;
-           
+            OpenConnection();
+            CloseConnection();
+
         }
         
         public override void OpenConnection()
@@ -25,13 +27,14 @@ namespace DatabaseConnection
                 TimeOut.Subtract(TimeSpan.FromSeconds(1));
             }
             
-            Console.WriteLine("You have timed out if not connected.");
-            Console.ReadLine();
+            Console.WriteLine("You have timed out..");
+           
         }
 
         public override void CloseConnection()
         {
             Console.WriteLine("SqlConnection is now closed.");
+        
         }
 
     }

@@ -1,21 +1,16 @@
 ﻿using System;
-using System.Dynamic;
+
 
 namespace DatabaseConnection
 {
-
     class Program
     {
         static void Main(string[] args)
         {
-            var connection = new SqlConnection();
-            connection.CloseConnection();
-            var connection2 = new OracleConnection("connection string", TimeSpan.FromSeconds(20));
-            connection2.OpenConnection();
-            
-
-          
-            
+            var startConnection = new DbCommand();
+            startConnection.Execute(new SqlConnection("Connection String", TimeSpan.FromSeconds(20)));
+            startConnection.Execute(new OracleConnection("Connection String", TimeSpan.FromSeconds(20)));
+            Console.ReadLine();
         }
     }
 }

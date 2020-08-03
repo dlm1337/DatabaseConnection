@@ -2,14 +2,24 @@
 
 namespace DatabaseConnection
 {
-    public abstract class DbConnection
+    public  class DbConnection
     {
 
         public string ConnectionString { get; set; }
         public TimeSpan TimeOut { get; set; }
 
-        public abstract void OpenConnection();
-        public abstract void CloseConnection();
+        public virtual void OpenConnection()
+        { 
+       
+        
+        
+        }
+        public virtual void CloseConnection()
+        {
+        
+        
+        
+        }
 
     }
 
