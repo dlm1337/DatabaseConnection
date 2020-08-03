@@ -11,8 +11,7 @@ namespace DatabaseConnection
         {
             ConnectionString = connected;
             TimeOut = start;
-            OpenConnection();
-            CloseConnection();
+        
 
         }
         

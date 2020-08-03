@@ -5,28 +5,34 @@ namespace DatabaseConnection
 {
     public class DbCommand
     {
-
+        
         private readonly IList<DbConnection> connections;
+        
 
-        public DbCommand()
+        public DbCommand(DbConnection connection)
         {
             
                 connections = new List<DbConnection>();
-           
+                connections.Add(connection);
+                if (connections.Count <= 0)
+                {
+                throw new NullReferenceException();
+                }
         }
 
      
 
-        public void Execute(DbConnection connection)
+        public void Execute()
         {
-            connections.Add(connection);
-            if (connections.Count <= 0)
+            foreach(var exe in connections)
             {
-                throw new NullReferenceException();
+                exe.OpenConnection();
+                exe.CloseConnection();
             }
+            
 
         }
 
 
     }
-}
+}       
